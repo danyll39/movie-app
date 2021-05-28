@@ -6,6 +6,8 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavorites from './components/AddFavorites';
 import RemoveFavorites from './components/RemoveFavorites';
+require('dotenv').config()
+
 
 const App = () => {
   const [movies, setMovies] = useState([]);
